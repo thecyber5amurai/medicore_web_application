@@ -6,18 +6,18 @@ const heroBg = "/assets/doctors-are-here-for-you.jpg";
 export default function HeroSection() {
     return (
         <section className="bg-slate-50">
-            <div className="px-4 py-16 sm:px-6 lg:px-8">
+            <div className="px-4 py-16 sm:px-6 lg:px-8 mx-auto max-w-screen-2xl">
 
                 <div className="grid items-center gap-12 lg:grid-cols-2">
                     <div>
-                        <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-teal-700">
-                            <span className="h-2 w-2 rounded-full bg-teal-600" />
+                        <p className="flex items-center gap-2 text-sm font-semibold uppercase tracking-wide text-emerald-700">
+                            <span className="h-2 w-2 rounded-full bg-emerald-600" />
                             Board-certified clinical network
                         </p>
 
                         <h1 className="mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
                             Your health, connected to{" "}
-                            <span className="text-teal-700">
+                            <span className="text-emerald-700">
                                 exceptional care.
                             </span>
                         </h1>
